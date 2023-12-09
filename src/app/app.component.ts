@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { AppService } from './app.service';
 
 @Component({
@@ -7,7 +7,9 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor(private appService: AppService) {
-    console.log(appService.getHello());
+  appService = inject(AppService);
+
+  constructor() {
+    console.log(this.appService.getHello());
   }
 }

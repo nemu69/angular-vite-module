@@ -2,6 +2,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "vite": ["node_modules/vite"]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "strict": true,
@@ -12,6 +15,7 @@
     "skipLibCheck": true,
     "target": "es2020",
     "module": "es2020",
+    "preserveSymlinks": true,
     "types": [
       "vite/client"
     ],
