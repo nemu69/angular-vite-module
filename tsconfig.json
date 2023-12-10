@@ -15,10 +15,6 @@
     "skipLibCheck": true,
     "target": "es2020",
     "module": "es2020",
-    "preserveSymlinks": true,
-    "types": [
-      "vite/client"
-    ],
     "lib": [
       "es2018",
       "dom"
