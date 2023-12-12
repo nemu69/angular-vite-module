@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@analogjs/vite-plugin-angular": "^0.2.24",
+    "@angular/cdk": "^15.2.9",
     "@angular/cli": "^15.2.10",
     "@angular/common": "^15.2.10",
     "@angular/compiler": "^15.2.2",
